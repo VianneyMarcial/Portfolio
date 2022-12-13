@@ -13,7 +13,7 @@ const Home = () => {
       </div>
       <div>
         <figure>
-          <img src="../../../mail.gif" alt="" className='iconContact'/>
+          <img src="../mail.gif" alt="" className='iconContact'/>
           <figcaption className='figContact'>girlvianney@hotmail</figcaption>
         </figure>
         <figure>
