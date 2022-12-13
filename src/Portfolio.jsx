@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../projects/RickyMorthy.png" className='proyectImg' /> </a>
+              <a> <Card.Img variant="top" src="../../../projects/RickyMorthy.png" className='proyectImg' /> </a>
               <figcaption>
                <a href="https://rickmortyapp-vianneymarcial.netlify.app/" target={"_blank"}>React <br /> React Routes <br /> CSS <br /> Axios <br />Redux <br /> Consumo de API </a>
               </figcaption>
