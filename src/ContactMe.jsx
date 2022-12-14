@@ -1,8 +1,8 @@
 import React from 'react';
 import ButtonMailto from './components/MailTo'; 
-import gmail from '../../gmail.gif';
-import linkedin from '../../linkedin.gif';
-import doc from '../../doc.gif'
+import gmail from '../gmail.gif';
+import linkedin from '../linkedin.gif';
+import doc from '../doc.gif'
 
 const ContactMe = () => {
   return (

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
-import RickyMorthy from '../../RickyMorthy.png';
-import EcomerceTec from '../../EcomerceTec.png';
-import Quotes from '../../Quotes.png';
-import Weather from '../../Weather.png';
-import Pokemon from '../../Pokemon.png';
-import EcomerceCake from '../../EcomerceCake.png';
-import BoxShadown from '../../BoxShadown.png';
+import RickyMorthy from '../projects/RickyMorthy.png';
+import EcomerceTec from '../projects/EcomerceTec.png';
+import Quotes from '../projects/Quotes.png';
+import Weather from '../projects/Weather.png';
+import Pokemon from '../projects/Pokemon.png';
+import EcomerceCake from '../projects/EcomerceCake.png';
+import BoxShadown from '../projects/BoxShadown.png';
 
 const Portfolio = () => {
   return (
