@@ -10,16 +10,15 @@ const AboutMe = () => {
     <>
       <div className='aboutMe'>
         <div className='description'>
-          <h4> <h2>Hi I'm Vianney!</h2> <br />
             <h4 className='me'>
+            Hi I'm Vianney! <br /> <br />
             Full Stack Web Developer <br /> <br />
             I love to respond to new challenges of continuous demand, where I can put my skills into practice. It's amazing to work with people from other countries and continents, I like different projects and I have something new to contribute.
             <br /> My experience and path has been in the private public sector and teaching where I have built my professional skills such as leadership, discipline, innovation and desire to keep learning every day.
-            </h4>
           </h4>
         </div>
         <div className='study'>
-          <h6>Estudios</h6>
+          <h6>Resume</h6>
           <ul>
             <li>
               <img src={academl1} alt="" className='iconStudy'/>
