@@ -1,4 +1,9 @@
 import React from 'react';
+import academl1 from '../../academl1.png';
+import cnci from '../../cnci.png';
+import uv from '../../uv.png';
+import google from '../../google.png';
+import sep from '../../sep.png';
 
 const AboutMe = () => {
   return (
@@ -17,23 +22,23 @@ const AboutMe = () => {
           <h6>Estudios</h6>
           <ul>
             <li>
-              <img src=".//academl1.png" alt="" className='iconStudy'/>
+              <img src={academl1} alt="" className='iconStudy'/>
               Web Development
             </li>
             <li>
-              <img src=".//cnci.png" alt="" className='iconStudy'/>
+              <img src={cnci} alt="" className='iconStudy'/>
               Master in Administration and Finance
             </li>
             <li>
-              <img src=".//uv.png" alt="" className='iconStudy'/>
+              <img src={uv} alt="" className='iconStudy'/>
               Bachelor's Degree in Economics
             </li>
             <li>
-              <img src=".//google.png" alt="" className='iconStudy'/>
+              <img src={google} alt="" className='iconStudy'/>
               Google Certified Educator
             </li>
             <li>
-              <img src=".//sep.png" alt="" className='iconStudy' />
+              <img src={sep} alt="" className='iconStudy' />
               Online Teacher
             </li>
           </ul>
