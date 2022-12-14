@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 import pdf from '../../resources/Vianney_Marcial_Cv.pdf';
+import hogar from '../../hogar.gif';
 
 const NavBar = () => {
-  const location = useLocation();
-  const { pathname } = location;
+  const { pathname } = useLocation();
 
   return (
     <>
@@ -17,7 +17,7 @@ const NavBar = () => {
       <Navbar collapseOnSelect expand="sm">
         <Container>
           <Navbar.Brand eventKey="1" as={Link} to="/">
-            <img src=".//hogar.gif" alt="" className='homeGif'/>
+            <img src={hogar} alt="" className='homeGif'/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav">

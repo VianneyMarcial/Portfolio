@@ -1,4 +1,7 @@
 import React from 'react';
+import mail from '../../mail.gif';
+import cel from '../../cel.gif';
+import inke from '../../inke.gif';
 
 const Home = () => {
   return (
@@ -13,15 +16,15 @@ const Home = () => {
       </div>
       <div>
         <figure>
-          <img src="../mail.gif" alt="" className='iconContact'/>
+          <img src={mail} alt="" className='iconContact'/>
           <figcaption className='figContact'>girlvianney@hotmail</figcaption>
         </figure>
         <figure>
-          <img src="../../cel.gif" alt="" className='iconContact'/>
+          <img src={cel} alt="" className='iconContact'/>
           <figcaption className='figContact'>5527225874</figcaption>
         </figure>
         <figure>
-          <img src="../../in.gif" alt="" className='iconContact'/>
+          <img src={inke} alt="" className='iconContact'/>
           <figcaption className='figContact'> <a href="https://www.linkedin.com/in/vianney-marcial-2b205b1a8/" target={"_blank"}> Click here </a> </figcaption>
         </figure>
       </div>

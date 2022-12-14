@@ -1,5 +1,12 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import RickyMorthy from '../../RickyMorthy.png';
+import EcomerceTec from '../../EcomerceTec.png';
+import Quotes from '../../Quotes.png';
+import Weather from '../../Weather.png';
+import Pokemon from '../../Pokemon.png';
+import EcomerceCake from '../../EcomerceCake.png';
+import BoxShadown from '../../BoxShadown.png';
 
 const Portfolio = () => {
   return (
@@ -8,7 +15,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../../projects/RickyMorthy.png" className='proyectImg' /> </a>
+              <a> <Card.Img variant="top" src={RickyMorthy} className='proyectImg' /> </a>
               <figcaption>
                <a href="https://rickmortyapp-vianneymarcial.netlify.app/" target={"_blank"}>React <br /> React Routes <br /> CSS <br /> Axios <br />Redux <br /> Consumo de API </a>
               </figcaption>
@@ -25,7 +32,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../projects/E-comerceTec.png" className='proyectImg' /> </a>
+              <a> <Card.Img variant="top" src={EcomerceTec} className='proyectImg' /> </a>
               <figcaption>
                <a href="https://ecommerce-tec-vianneymarcial.netlify.app" target={"_blank"}>React <br /> React Routes <br /> CSS <br /> Axios <br />Redux <br /> Consumo de API </a>
               </figcaption>
@@ -42,7 +49,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../projects/Quotes.png" className='proyectImg'/> </a>
+              <a> <Card.Img variant="top" src={Quotes} className='proyectImg'/> </a>
               <figcaption>
                 <a href="https://quotes-vianneymarcial.netlify.app/" id="vink" target={"_blank"}>React <br /> CSS <br /> Manejo de estados <br /> Consumo de API </a>
               </figcaption>
@@ -59,7 +66,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../projects/Weather.png" className='proyectImg'/> </a>
+              <a> <Card.Img variant="top" src={Weather} className='proyectImg'/> </a>
               <figcaption>
                 <a href="https://weatherapp-vianneymarcial.netlify.app/" id="vink" target={"_blank"}>  React <br /> CSS <br /> Consumo de API </a>
               </figcaption>
@@ -76,7 +83,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../projects/Pokemon.png" className='proyectImg'/> </a>
+              <a> <Card.Img variant="top" src={Pokemon} className='proyectImg'/> </a>
               <figcaption>
                 <a href="https://pokeapp-vianneymarcial.netlify.app/" id="vink" target={"_blank"}>React <br /> React Routes <br /> CSS <br /> Axios <br />Redux <br /> Consumo de API </a>
               </figcaption>
@@ -93,7 +100,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../projects/E-comerceCake.png" className='proyectImg'/> </a>
+              <a> <Card.Img variant="top" src={EcomerceCake} className='proyectImg'/> </a>
               <figcaption>
                 <a href="https://e-commerce-vianneym.netlify.app/" id="vink" target={"_blank"}>Javascript <br /> CSS </a>
               </figcaption>
@@ -110,7 +117,7 @@ const Portfolio = () => {
         <div className='proyectCard'>
           <Card.Body>
             <figure>
-              <a> <Card.Img variant="top" src="../../projects/BoxShadown.png" className='proyectImg'/> </a>
+              <a> <Card.Img variant="top" src={BoxShadown} className='proyectImg'/> </a>
               <figcaption>
                 <a href="https://boxshadow-vianneym.netlify.app/" id="vink" target={"_blank"}>React <br /> CSS <br /></a>
               </figcaption>
